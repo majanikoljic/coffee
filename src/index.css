@@ -18,11 +18,13 @@
 html,
 body {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #F6EEE3; /* soft cream */
+    color: #5C4B4B; /* soft brownish text */
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-family: 'Playfair Display', serif; /* elegant & feminine font */
 }
+
 
 @utility flex-center {
     @apply flex justify-center items-center;
@@ -37,7 +39,7 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #5C4B4B, #A4877C);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -117,7 +119,7 @@ body {
                     @apply 2xl:text-start text-center;
                 }
 
-                .view-cocktails {
+                .view-coffee {
                     @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
                     p {
@@ -136,7 +138,7 @@ body {
         @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
     }
 
-    #cocktails {
+    #coffee {
         @apply relative min-h-dvh w-full overflow-hidden;
 
         #c-left-leaf {
