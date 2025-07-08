@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Coffees from "./components/coffees.jsx";
+import About from "./components/About.jsx";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <Coffees />
+            <About/>
         </main>
     )
 }
