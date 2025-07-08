@@ -135,7 +135,7 @@ const socials = [
     },
 ];
 
-const sliderLists = [
+const allCoffees = [
     {
         id: 1,
         name: "Caramel Cloud Cold Brew",
@@ -176,5 +176,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    allCoffees,
 };
