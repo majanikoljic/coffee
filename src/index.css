@@ -18,11 +18,11 @@
 html,
 body {
     width: 100%;
-    background-color: #F6EEE3; /* soft cream */
-    color: #5C4B4B; /* soft brownish text */
+    background: linear-gradient(to right, #F5D8B0 0%, #DAB484 100%);
+    color: #5C4B4B;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-family: 'Playfair Display', serif; /* elegant & feminine font */
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -94,7 +94,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-20 mt-20 text-4xl md:text-7xl leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
