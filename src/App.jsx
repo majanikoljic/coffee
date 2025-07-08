@@ -9,7 +9,6 @@ const App = () => {
         <main>
             <Navbar />
             <Hero />
-            <div className="h-dvh bg-[#D8CAB8]"></div>
         </main>
     )
 }
