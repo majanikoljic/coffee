@@ -38,15 +38,6 @@ const Hero = () => {
             stagger: 0.06,
             delay: 1
         });
-        gsap.to(['#hero', '.video'], {
-            opacity: 0,
-            scrollTrigger: {
-                trigger: '#hero',
-                start: 'bottom bottom',
-                end: '+=200',
-                scrub: true
-            }
-        });
 
         gsap.timeline({
             scrollTrigger: {
