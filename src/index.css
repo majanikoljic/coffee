@@ -135,7 +135,7 @@ body {
     }
 
     video { 
-        @apply w-full md:h-screen h-[80%] absolute bottom-0 left-0 md:object-contain object-bottom object-cover; 
+        @apply w-full md:h-[100%] h-[70%] absolute bottom-0 left-0 md:object-contain object-bottom object-cover; 
         width: 100%; /* makes it narrower */ 
         left: 0%; /* centers it */ 
         transform: none; 
