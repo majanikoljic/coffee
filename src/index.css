@@ -135,9 +135,11 @@ body {
     }
 
     video {
-        @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
-        transform: scale(0.65);
-        transform-origin: center center;
+        @apply absolute bottom-0 md:object-contain object-bottom;
+        width: 60%;          /* narrower */
+        height: 90%;         /* taller */
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
