@@ -135,8 +135,8 @@ body {
     }
 
     video {
-        @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
-        width: 50%;              /* makes it narrower */
+        @apply w-full md:h-[100%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
+        width: 40%;              /* makes it narrower */
         left: 50%;               /* centers it */
         transform: translateX(-50%);
     }
