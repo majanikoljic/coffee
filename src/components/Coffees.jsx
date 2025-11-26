@@ -52,7 +52,7 @@ const Coffees = () => {
                         {icedDrinks.map(({name, origin, detail, price}) => (
                             <li key={name}>
                                 <span>- {price}</span>
-                                <div className="me-28">
+                                <div className="md:ms-28">
                                     <h3>{name}</h3>
                                     <p>{origin} | {detail}</p>
                                 </div>
