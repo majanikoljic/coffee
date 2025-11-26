@@ -29,7 +29,7 @@ const Coffees = () => {
             <img src="/images/coffee-right-leaf.png" alt="r-leaf" id="c-right-leaf"/>
 
             <div className="list">
-                <div className="hot md:mr-20">
+                <div className="hot md:mr-40">
                     <h2>Hot Coffees:</h2>
 
                     <ul>
@@ -45,7 +45,7 @@ const Coffees = () => {
                     </ul>
                 </div>
 
-                <div className="iced md:ml-20">
+                <div className="iced md:ml-40">
                     <h2>Iced Coffees:</h2>
 
                     <ul>
