@@ -29,7 +29,7 @@ const Coffees = () => {
             <img src="/images/coffee-right-leaf.png" alt="r-leaf" id="c-right-leaf"/>
 
             <div className="list">
-                <div className="hot md:mr-40">
+                <div className="hot">
                     <h2>Hot Coffees:</h2>
 
                     <ul>
@@ -45,8 +45,8 @@ const Coffees = () => {
                     </ul>
                 </div>
 
-                <div className="iced md:ml-40">
-                    <h2>Iced Coffees:</h2>
+                <div className="iced">
+                    <h2 className="text-right">Iced Coffees:</h2>
 
                     <ul>
                         {icedDrinks.map(({name, origin, detail, price}) => (
